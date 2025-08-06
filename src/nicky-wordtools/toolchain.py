@@ -175,5 +175,8 @@ def main():
     for p in procs:
         p.wait()
 
+def cli():
+    print("Hello from nicky!")
+
 if __name__ == '__main__':
     main()

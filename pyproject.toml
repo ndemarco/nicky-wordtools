@@ -18,10 +18,8 @@ dependencies = []
 Homepage = "https://github.com/ndemarco/nicky-wordtools"
 
 [project.scripts]
-permute            = "nicky_wordtools.permute:main"
-fill-interstices   = "nicky_wordtools.fill_interstices:main"
-morph-caps         = "nicky_wordtools.morph_caps:main"
-toolchain          = "nicky_wordtools.toolchain:main"
+nicky = "nicky_wordtools.toolchain:cli"
+
 
 [project.optional-dependencies]
 test = ["pytest>=8.4.1"]
