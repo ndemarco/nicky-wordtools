@@ -9,7 +9,7 @@ description = "Wordlist permutation & transformation utilities by NickyDoes"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-  { name = "Nick DeMarco", email = "your.email@example.com" }
+  { name = "NickyDoes", email = "6326614+ndemarco@users.noreply.github.com" }
 ]
 requires-python = ">=3.10"
 dependencies = []
