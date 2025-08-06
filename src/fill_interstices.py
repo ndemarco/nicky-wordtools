@@ -63,12 +63,12 @@ def parse_mask(mask: str) -> List[Element]:
             # content between i+1 and j-1
             content = mask[i+1:j-1]
             # check for trailing -
-            rev = False
+            reverse = False
             if j < n and mask[j] == '-':
-                rev = True
+                reverse = True
                 j += 1
             sub = parse_mask(content)
-            elements.append(('group', sub, rev))
+            elements.append(('group', sub, reverse))
             i = j
         else:
             # literal char
